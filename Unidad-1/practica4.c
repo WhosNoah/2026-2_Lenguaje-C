@@ -71,7 +71,7 @@ int masRepetido(int *arreglo, int longitud) {
     for ( int i = 0; i < longitud; i++ ) {
         int conteo = 0;
 
-        for ( int j = 0; i < longitud; j++ ) {
+        for ( int j = 0; j < longitud; j++ ) {
             if ( arreglo[j] == arreglo[i] ) {
                 conteo++;
             }
