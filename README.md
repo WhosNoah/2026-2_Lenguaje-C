@@ -8,4 +8,5 @@ Este repositorio es un respaldo de mis practicas y talleres de la clase de Lengu
 ----------------------------------------------------------------------------------------
 
 ## Cambios recientes:
+* Ejercicios de examen resueltos primer parcial.
 * Practica 4 y Taller 5 agregados donde se ve el uso de poder escribir y modificar el comportamiento de los arreglos en base al uso de funciones hechas para esto mismo y aligerar la funcion main.
