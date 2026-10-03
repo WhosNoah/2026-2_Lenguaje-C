@@ -41,6 +41,33 @@ int buscar(char *texto,char *palabra)
 	return -1;
 }
 
+// Funcion ligeramente cambiada.
+int buscar(char *texto, char *palabra)
+{
+    int i, j, iguales;
+    for ( i = 0; *(texto + i) != '\0'; i++ )
+    {
+        j = 0;
+        if ( *(texto + i) == *(palabra + j) && (i == 0 || (*(texto + i - 1) == ' ' || *(texto + i - 1) == ',' || *(texto + i - 1) == '.')) )
+        {
+            iguales = 1;
+            for ( j = 0; *(palabra + j) != '\0'; j++ )
+            {
+                if ( *(texto + i + j) != *(palabra + j) )
+                {
+                    iguales = 0;
+                    break;
+                }
+            }
+            if ( !(*(texto + i + j) == ' ' || *(texto + i + j) == ',' || *(texto + i + j) == '.' || *(texto + i + j) == '\0') )
+                iguales = 0;
+            if ( iguales == 1 )
+                return i;
+        }
+    }
+    return -1;
+}
+
 /*
     La funcion "limpiar_buffer" como dice en el archivo "Taller5.c" ayuda demasiado al momento
     de despues de escanear la opcion, limpia el salto de linea que genera el scanf y hace que 
