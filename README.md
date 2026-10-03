@@ -7,6 +7,9 @@ Este repositorio es un respaldo de mis practicas y talleres de la clase de Lengu
 * Carlos Alejandro Gonzalez Rangel
 ----------------------------------------------------------------------------------------
 
+
 ## Cambios recientes:
+* LOS APUNTADORES Y ARREGLOS SON UN INFIERNO SI LOS AGREGAS JUNTOS!!! Btw, el Taller 5 incluye varias funciones que funcionan igual que hacer 'ctrl + f' en un navegador o en un editor de texto, haciendo que al introducir una cadena de texto, el mismo programa te lo muestre, y que al momento de seleccionar la 3ra opcion te permita reemplazar una palabra, llamando a la funcion **buscar** y que al encontrar la palabra esta sea reemplazada por otra.
+* **NO COMPILAR EL ARCHIVO LLAMADO "shortNotebook.c"**, seguramente te arrojara error ya que no contiene ninguna funcion main.
 * Ejercicios de examen resueltos primer parcial.
 * Practica 4 y Taller 5 agregados donde se ve el uso de poder escribir y modificar el comportamiento de los arreglos en base al uso de funciones hechas para esto mismo y aligerar la funcion main.
